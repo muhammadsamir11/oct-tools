@@ -1,0 +1,76 @@
+{
+  "_from": "git+https://github.com/image-js/ocr-tools.git",
+  "_id": "ocr-tools@0.2.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/ocr-tools",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "ocr-tools@git+https://github.com/image-js/ocr-tools.git",
+    "name": "ocr-tools",
+    "escapedName": "ocr-tools",
+    "rawSpec": "git+https://github.com/image-js/ocr-tools.git",
+    "saveSpec": "git+https://github.com/image-js/ocr-tools.git",
+    "fetchSpec": "https://github.com/image-js/ocr-tools.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/image-js/ocr-tools.git#fcaf6bd898eb4114d0c00921268427fa5f4dd5da",
+  "_spec": "ocr-tools@git+https://github.com/image-js/ocr-tools.git",
+  "_where": "/Volumes/Work/ThynkDigital/OCR",
+  "bugs": {
+    "url": "https://github.com/cheminfo-js/ocr-tools/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "font-manager": "^0.2.2",
+    "mkdirp": "^0.5.1",
+    "ml-array-mean": "^1.0.1",
+    "ml-array-median": "^1.0.1",
+    "ml-distance": "^2.1.1",
+    "ml-kmeans": "^4.0.0"
+  },
+  "deprecated": false,
+  "description": "Various tools for OCR",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-cheminfo": "^1.14.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^21.7.0",
+    "image-js": "^0.21.0",
+    "jest": "^22.1.4"
+  },
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/cheminfo-js/ocr-tools#readme",
+  "keywords": [
+    "ocr",
+    "image",
+    "optical",
+    "character",
+    "recognition"
+  ],
+  "license": "MIT",
+  "main": "./src/index.js",
+  "name": "ocr-tools",
+  "optionalDependencies": {
+    "font-manager": "^0.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheminfo-js/ocr.git"
+  },
+  "scripts": {
+    "eslint": "eslint src run",
+    "eslint-fix": "npm run eslint -- --fix",
+    "test": "npm run test-only && npm run eslint",
+    "test-cov": "npm run test-only -- --coverage",
+    "test-only": "echo 'No test for now...'",
+    "test-travis": "npm run test-cov && npm run eslint"
+  },
+  "version": "0.2.0"
+}
